@@ -1,0 +1,9 @@
+# .env
+.git
+bootstrap/cache/*
+node_modules
+public/dist/*
+vendor
+storage/framework/cache/**
+storage/framework/sessions/**
+storage/framework/views/**
