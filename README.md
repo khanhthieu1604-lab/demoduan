@@ -1,89 +1,164 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# 🚗 Thiuu Car Rental  
+**Full-stack Web Application | Laravel**
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Thiuu Car Rental is a full-stack web application built with **Laravel**, designed to simulate a real-world car rental management system.  
+The project demonstrates practical backend development skills, clean MVC architecture, and common business workflows used in production systems.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🔍 Project Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The system allows users to browse available vehicles and create rental orders, while administrators can manage vehicles, categories, users, and rental data.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This project focuses on **functionality, architecture, and code organization**, rather than UI-heavy design, making it suitable as a **portfolio project for backend / full-stack roles**.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🎯 What This Project Demonstrates
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Laravel MVC architecture in a real project
+- Clean separation of Controller, Model, and View
+- CRUD operations with relational data
+- Authentication and basic role-based access (Admin / User)
+- Image upload and storage handling
+- Practical Git workflow and project structure
+- Database design with migrations and seeders
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## ✨ Features
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
+### User Features
+- Register and login
+- Browse vehicle listings
+- View vehicle details
+- Create rental orders
+- Manage personal profile
 
-## Contributing
+### Admin Features
+- Vehicle management (Create / Update / Delete)
+- Category management
+- Rental order management
+- User management
+- Basic system overview
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🧠 Architecture
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Framework**: Laravel
+- **Pattern**: MVC (Model – View – Controller)
+- **Routing**: REST-style routes (`routes/web.php`)
+- **Views**: Blade Template Engine
+- **Storage**: Laravel Storage (public disk)
 
-## Security Vulnerabilities
+Flow overview:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Request → Route → Controller → Model → Database  
+                             → Blade View
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🧱 Tech Stack
 
-## Local development
-Do it with Docker-compose.
+| Layer | Technology |
+|-----|-----------|
+| Backend | Laravel |
+| Frontend | Blade, TailwindCSS |
+| Database | MySQL |
+| Language | PHP |
+| Version Control | Git, GitHub |
 
-```bash
-% cd carrental
-% docker build ./docker
-% docker-compose build
-% docker-compose up
-```
+---
+
+## 📁 Project Structure (Simplified)
+
+app/  
+ ├── Http/Controllers  
+ ├── Models  
+routes/  
+ └── web.php  
+resources/  
+ └── views  
+database/  
+ ├── migrations  
+ └── seeders  
+storage/  
+public/
+
+---
+
+## ⚙️ Installation & Run Locally
+
+### Requirements
+- PHP >= 8.1
+- Composer
+- MySQL
+
+### Steps
+
+git clone https://github.com/khanhthieu1604-lab/Thiuu.git  
+cd Thiuu  
+composer install  
+cp .env.example .env  
+php artisan key:generate  
+
+Configure database in `.env`:
+
+DB_CONNECTION=mysql  
+DB_HOST=127.0.0.1  
+DB_PORT=3306  
+DB_DATABASE=thiuu_carrental  
+DB_USERNAME=root  
+DB_PASSWORD=  
+
+Run migrations and start server:
+
+php artisan migrate  
+php artisan storage:link  
+php artisan serve  
+
+Access the application at:
+
+http://127.0.0.1:8000
+
+---
+
+## 🖼️ Image Handling
+
+- Uploaded images are stored in `storage/app/public`
+- Public access via `public/storage`
+- Designed to be migrated to AWS S3 / Cloudinary / CDN
+
+---
+
+## 🚧 Known Limitations
+
+- No online payment gateway
+- No advanced permission system
+- UI is functional-focused
+
+---
+
+## 🚀 Planned Improvements
+
+- Online payment integration
+- Role & permission management
+- Vehicle availability calendar
+- REST API for mobile application
+- Dockerized deployment
+
+---
+
+## 👨‍💻 Author
+
+**Lương Khánh Thiệu**  
+Full-stack / Backend Developer (Laravel)  
+
+GitHub: https://github.com/khanhthieu1604-lab
+
+---
+
+## 📄 License
+
+This project is intended for learning, portfolio, and demonstration purposes.
